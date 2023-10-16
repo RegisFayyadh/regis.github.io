@@ -1,0 +1,25 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+.container{
+    height: 400PX;
+    background-color: khaki;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.container{
+    /* flex-direction: column-reverse;
+} */
+
+flex-wrap: nowrap
+;
